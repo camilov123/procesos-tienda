@@ -13,6 +13,7 @@ import java.util.Optional;
 public class AddressService {
     @Autowired
     private AddressRepository addressRepository;
+    @Autowired
     private UserService userService;
 
     public Address createAddress(Address addressReq, Long idUser){
