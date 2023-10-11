@@ -4,10 +4,12 @@ import com.procesos.tienda.model.Address;
 import com.procesos.tienda.model.User;
 import com.procesos.tienda.repository.AddressRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class AddressService {
     @Autowired
     private AddressRepository addressRepository;
